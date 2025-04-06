@@ -1,6 +1,7 @@
 import './App.css';
 import AddUser from "./AddUser/AddUser";
 import User from './GetUser/User';
+import UpdateUser from './UpdateUser/Update';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
     {
       path:"/add",
       element:<AddUser/>,
+    },
+    {
+      path:"/update/:id",
+      element:<UpdateUser/>,
     }
   ])
   return (
