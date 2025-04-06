@@ -29,3 +29,14 @@
 .actionButton button{
     margin: 0 10px;
 }
+
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 8px;
+}
